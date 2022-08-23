@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 20px 0px;
+  position: fixed;
+  width: 100vw;
+}
+
+nav ul li {
+  font-size: 20px;
+  /* display: inline; */
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #666;
+}
+
+#top {
+  height: 700px;
+  background: url(../img/24150258_m.jpg) no-repeat center;
+  background-size: cover
+}
+
+.top_wrap h1 {
+  font-size: 60px;
+  color: #fff;
+  float: right;
+  margin: 275px 50px 0 0;
+  text-shadow: 2px 2px 3px #808080;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+#service {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.section_title {
+  font-size: 40px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 3px #808080;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.service_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service_left {
+  width: 50%;
+}
+
+.service_left img {
+  width: 80%;
+  height: auto;
+}
+
+.service_right h3 {
+  color: #000;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.service_right p {
+  font-size: 15px;
+  color: #555;
+}
+
+.right2 {
+  margin-top: 50px;
+}
+
+#news {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.news_wrap {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.news_wrap p {
+  line-height: 2.5;
+}
+
+#price {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.price_wrap table {
+  border: double #000 1px;
+  width: 100%;
+  text-align: center;
+}
+
+.price_wrap table tr {
+  border: solid #000 1px;
+  padding: 10px;
+}
+
+.price_wrap table th {
+  border: solid #000 1px;
+  padding: 10px;
+}
+
+.price_wrap table td {
+  border: solid #000 1px;
+  padding: 10px;
+}
+
+#contact {
+  background: rgb(241, 241, 241);
+  width: 80%;
+  margin: 0 auto;
+}
+
+#contact h2 {
+  padding: 40px 0;
+}
+
+.form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.form-content {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* label {
+  display: none;
+  width: 30%;
+  line-height: 2;
+} */
+
+input,
+textarea {
+  box-sizing: border-box;
+  border: solid #ddd 1px;
+  width: 65%;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 6px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 200px;
+}
+
+.button_submit {
+  text-align: center;
+}
+
+.button {
+  padding: 10px 50px;
+  background-color: #555;
+  margin: 50px 0;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+}
+
+#footer {
+  background-color: #444;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}

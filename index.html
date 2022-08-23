@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML&CSS 実践</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#service">サービス</a></li>
+        <li><a href="#news">ニュース</a></li>
+        <li><a href="#price">価格</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="top">
+      <div class="top_wrap">
+        <h1>家系ラーメン「横浜商店」</h1>
+      </div>
+    </section>
+    <section id="service">
+      <h2 class="section_title">サービス</h2>
+      <div class="service_wrap">
+        <div class="service_left">
+          <img src="img/SNOW_20220410_113506_201.jpg" alt="サービス画像">
+        </div>
+        <div class="service_right">
+          <h3>新春キャンペーン！完まくでスタンプ3倍！</h3>
+          <p>※以下条件のすべてを満たした場合にキャンペーンの適用となります。</p>
+          <hr>
+          <p>いずれかのラーメンを注文したお客様<br>完まく後、スタッフにお声掛けいただいた方</p>
+          <hr>
+          <p>※完まくとは…スープまで完全に飲み干した状態を指します。</p>
+          <div class="right2">
+            <h3>完まくスタンプ20個集めてラーメン1杯無料！</h3>
+            <p>当店では完まく1回につきスタンプ1つを進呈！<br>スタンプ20個でラーメン1杯無料のキャンペーンを実施中です！
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="news">
+      <h2 class="section_title">ニュース</h2>
+      <div class="news_wrap">
+        <p>2021/1/1 新年のご挨拶</p>
+        <p>2020/12/31 年末年始の店舗休業案内</p>
+        <p>2020/8/23 お盆休みによる店舗の休業案内</p>
+      </div>
+    </section>
+    <section id="price">
+      <h2 class="section_title">価格</h2>
+      <div class="price_wrap">
+        <table>
+          <tr>
+            <th>ー</th>
+            <th>醤油らーめん</th>
+            <th>ねぎらーめん</th>
+          </tr>
+          <tr>
+            <td>料金</td>
+            <td>９００円</td>
+            <td>９８０円</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <section id="contact">
+      <h2 class="section_title">お問い合わせ</h2>
+      <form class="form" method="post">
+        <div class="form-content">
+          <!-- <label for="name">氏名:</label> -->
+          <input type="text" id="name" name="user_name" placeholder="氏名">
+        </div>
+        <div class="form-content">
+          <!-- <label for="mail">メールアドレス:</label> -->
+          <input type="email" id="mail" name="user_mail" placeholder="Email">
+        </div>
+        <div class="form-content">
+          <!-- <label for="tel">電話番号:</label> -->
+          <input type="tel" id="tel" name="user_tel" placeholder="電話番号">
+        </div>
+        <div class="form-content">
+          <!-- <label for="msg">内容:</label> -->
+          <textarea id="msg" name="user_message" placeholder="内容"></textarea>
+        </div>
+        <div class="button_submit">
+          <button class="button" type="submit">送信</button>
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer id="footer">
+  <div>
+    <small>© 2021 家系ラーメン「横浜商店」 All rights reserved.</small>
+  </div>
+  </footer>
+</body>
+</html>
